@@ -5,7 +5,7 @@ import "aos/dist/aos.css"
 AOS.init()
 function WhoAre() {
   return (
-    <div className="container py-5" id="whoAre" data-aos="fade-right" data-aos-duration="2000">
+    <div className="container py-5" id="whoAre" data-aos="fade-top" data-aos-duration="3000">
       <div className="row ">
         <div className="col-lg-6 col-xm-12 ">
           <img className="who-img" src="https://k.top4top.io/p_1930lh1gn1.png" alt="" />
