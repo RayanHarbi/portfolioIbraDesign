@@ -3,7 +3,7 @@ import emailjs from "emailjs-com"
 import { useForm } from "react-hook-form"
 
 function Contact() {
-  const [successMessage, setSuccessMessage] = useState("")
+  const [successMessage, setSuccessMessage] = useState(" ")
   const {
     register,
     handleSubmit,
